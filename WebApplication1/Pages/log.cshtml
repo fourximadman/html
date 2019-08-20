@@ -1,0 +1,23 @@
+﻿@page
+@model homework.Pages.logModel
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>用户登录·一起帮</title>
+</head>
+<body>
+    <h1>用户登录</h1>
+    <hr />
+    <form method="post">
+        <label>用户名：（*必填）</label><input type="text" name="username" /><br />
+        <label>密码：（* 必填）</label><input type="password" name="password" /> <br />
+        <label>验证码：（* 必填）</label><input type="text" name="username" /> <br />
+        <input type="submit" value="提交" zyf-submit-once />
+        <label class="checkbox-inline">
+            <input type="checkbox" name="remember" value="true" checked />记住我
+        </label>
+
+    </form>
+
+</body>
+</html>
+
